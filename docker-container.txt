@@ -1,0 +1,1 @@
+docker run --name javabookstore -p 3306:3306 -e MYSQL_ROOT_PASSWORD=nico00747 -e MYSQL_DATABASE=bookstoredb -e MYSQL_USER=Alucard -e MYSQL_PASSWORD=nico00747 -d mysql:latest
